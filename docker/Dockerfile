@@ -10,7 +10,7 @@ RUN pip3 install -U pip && pip3 install setuptools && \
     pip3 install minio==6.0.0 pycocotools==2.0.2 mlflow==1.14.0 timm==0.4.5 opencv-python==4.4.0.46 \
                  numpy==1.20.0 tensorboard==2.4.0
 
-# link python3.6 to python
-RUN ln -snf /usr/bin/python3.7 /usr/bin/python
+# link python3.8 to python
+RUN ln -snf /usr/bin/python3.8 /usr/bin/python
 
 CMD [ "/bin/bash" ]
